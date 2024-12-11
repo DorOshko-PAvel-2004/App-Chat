@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <title>@ViewData["Title"] - SocialNetwork.Web</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <partial name="_Navbar" />
+
+    <!-- Newsbar -->
+    @*@await Component.InvokeAsync("Newsbar")*@
+
+    <div class="">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="~/js/particles.js"></script>
+    <script src="~/lib/microsoft/signalr/dist/browser/signalr.js"></script>
+    <script src="~/js/chat.js"></script>
+    <script src="~/js/signalrReqHandler.js"></script>
+    <script src="~/js/site.js"></script>
+    <script src="~/js/alime.bundle.js"></script>
+    <script src="~/js/active.js"></script>
+    <script src="~/js/paginate.js"></script>
+
+    @RenderSection("Scripts", required: false)
+
+</body>
+</html>

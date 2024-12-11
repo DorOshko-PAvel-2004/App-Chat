@@ -1,0 +1,77 @@
+﻿@model IEnumerable<SocialNetwork.Web.Models.UserViewModel>
+
+@{
+    ViewData["Title"] = "ListUsers";
+}
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<div class="container">
+
+    <ul class="nav nav-pills flex-column">
+        <li class="nav-item"><a class="nav-link" asp-controller="Admin" asp-action="ListUsers">Users</a></li>
+        <li class="nav-item"><a class="nav-link" asp-controller="Admin" asp-action="ListPosts">Posts</a></li>
+        <li class="nav-item"><a class="nav-link" asp-controller="Admin" asp-action="ListComments">Comments</a></li>
+    </ul>
+
+    <h1>Users</h1>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>
+                    Picture
+                </th>
+                <th>
+                    Name
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Education)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Email)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.PhoneNumber)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CreatedOn)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        <img src="@item.ProfilePictureUrl" width="50" height="50" />
+                    </td>
+                    <td>
+                        <a asp-controller="Account" asp-action="FriendProfile" asp-route-userId="@item.Id" />
+                        @Html.DisplayFor(modelItem => item.DisplayName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Education)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Email)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.PhoneNumber)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CreatedOn)
+                    </td>
+                    <td>
+                        <a asp-controller="Admin" asp-action="DeleteUser" asp-route-userId="@item.Id" />
+
+                        @Html.ActionLink("Delete", "DeleteUser", new { userId = item.Id }, new { @class = "btn btn-danger"})
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

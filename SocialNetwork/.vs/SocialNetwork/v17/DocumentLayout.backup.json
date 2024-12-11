@@ -1,0 +1,418 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\coursovoi\\Connectiverse\\SocialNetwork\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EDFC1B11-D70C-41AA-891F-1C1AE5761F52}|SocialNetwork.Web\\SocialNetwork.Web.csproj|d:\\coursovoi\\connectiverse\\socialnetwork\\socialnetwork.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EDFC1B11-D70C-41AA-891F-1C1AE5761F52}|SocialNetwork.Web\\SocialNetwork.Web.csproj|solutionrelative:socialnetwork.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDFC1B11-D70C-41AA-891F-1C1AE5761F52}|SocialNetwork.Web\\SocialNetwork.Web.csproj|d:\\coursovoi\\connectiverse\\socialnetwork\\socialnetwork.web\\wwwroot\\js\\particles.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EDFC1B11-D70C-41AA-891F-1C1AE5761F52}|SocialNetwork.Web\\SocialNetwork.Web.csproj|solutionrelative:socialnetwork.web\\wwwroot\\js\\particles.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDFC1B11-D70C-41AA-891F-1C1AE5761F52}|SocialNetwork.Web\\SocialNetwork.Web.csproj|d:\\coursovoi\\connectiverse\\socialnetwork\\socialnetwork.web\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDFC1B11-D70C-41AA-891F-1C1AE5761F52}|SocialNetwork.Web\\SocialNetwork.Web.csproj|solutionrelative:socialnetwork.web\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDFC1B11-D70C-41AA-891F-1C1AE5761F52}|SocialNetwork.Web\\SocialNetwork.Web.csproj|d:\\coursovoi\\connectiverse\\socialnetwork\\socialnetwork.web\\views\\admin\\editpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EDFC1B11-D70C-41AA-891F-1C1AE5761F52}|SocialNetwork.Web\\SocialNetwork.Web.csproj|solutionrelative:socialnetwork.web\\views\\admin\\editpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDFC1B11-D70C-41AA-891F-1C1AE5761F52}|SocialNetwork.Web\\SocialNetwork.Web.csproj|d:\\coursovoi\\connectiverse\\socialnetwork\\socialnetwork.web\\views\\admin\\editcomment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EDFC1B11-D70C-41AA-891F-1C1AE5761F52}|SocialNetwork.Web\\SocialNetwork.Web.csproj|solutionrelative:socialnetwork.web\\views\\admin\\editcomment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDFC1B11-D70C-41AA-891F-1C1AE5761F52}|SocialNetwork.Web\\SocialNetwork.Web.csproj|d:\\coursovoi\\connectiverse\\socialnetwork\\socialnetwork.web\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDFC1B11-D70C-41AA-891F-1C1AE5761F52}|SocialNetwork.Web\\SocialNetwork.Web.csproj|solutionrelative:socialnetwork.web\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B217428-7D8C-4686-9780-1B9087FC2102}|SocialNetwork.Services\\SocialNetwork.Services.csproj|d:\\coursovoi\\connectiverse\\socialnetwork\\socialnetwork.services\\services\\blobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B217428-7D8C-4686-9780-1B9087FC2102}|SocialNetwork.Services\\SocialNetwork.Services.csproj|solutionrelative:socialnetwork.services\\services\\blobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDFC1B11-D70C-41AA-891F-1C1AE5761F52}|SocialNetwork.Web\\SocialNetwork.Web.csproj|d:\\coursovoi\\connectiverse\\socialnetwork\\socialnetwork.web\\wwwroot\\js\\particles.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EDFC1B11-D70C-41AA-891F-1C1AE5761F52}|SocialNetwork.Web\\SocialNetwork.Web.csproj|solutionrelative:socialnetwork.web\\wwwroot\\js\\particles.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDFC1B11-D70C-41AA-891F-1C1AE5761F52}|SocialNetwork.Web\\SocialNetwork.Web.csproj|d:\\coursovoi\\connectiverse\\socialnetwork\\socialnetwork.web\\wwwroot\\js\\signalrreqhandler.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EDFC1B11-D70C-41AA-891F-1C1AE5761F52}|SocialNetwork.Web\\SocialNetwork.Web.csproj|solutionrelative:socialnetwork.web\\wwwroot\\js\\signalrreqhandler.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDFC1B11-D70C-41AA-891F-1C1AE5761F52}|SocialNetwork.Web\\SocialNetwork.Web.csproj|d:\\coursovoi\\connectiverse\\socialnetwork\\socialnetwork.web\\wwwroot\\js\\signalrreqhandler.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EDFC1B11-D70C-41AA-891F-1C1AE5761F52}|SocialNetwork.Web\\SocialNetwork.Web.csproj|solutionrelative:socialnetwork.web\\wwwroot\\js\\signalrreqhandler.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDFC1B11-D70C-41AA-891F-1C1AE5761F52}|SocialNetwork.Web\\SocialNetwork.Web.csproj|d:\\coursovoi\\connectiverse\\socialnetwork\\socialnetwork.web\\wwwroot\\js\\chat.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EDFC1B11-D70C-41AA-891F-1C1AE5761F52}|SocialNetwork.Web\\SocialNetwork.Web.csproj|solutionrelative:socialnetwork.web\\wwwroot\\js\\chat.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDFC1B11-D70C-41AA-891F-1C1AE5761F52}|SocialNetwork.Web\\SocialNetwork.Web.csproj|d:\\coursovoi\\connectiverse\\socialnetwork\\socialnetwork.web\\views\\chat\\messenger.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EDFC1B11-D70C-41AA-891F-1C1AE5761F52}|SocialNetwork.Web\\SocialNetwork.Web.csproj|solutionrelative:socialnetwork.web\\views\\chat\\messenger.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2960532E-8018-49C2-8E16-3EC8D70AE237}|SocialNetwork.Database\\SocialNetwork.Database.csproj|d:\\coursovoi\\connectiverse\\socialnetwork\\socialnetwork.database\\dataconfigurations\\userconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2960532E-8018-49C2-8E16-3EC8D70AE237}|SocialNetwork.Database\\SocialNetwork.Database.csproj|solutionrelative:socialnetwork.database\\dataconfigurations\\userconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDFC1B11-D70C-41AA-891F-1C1AE5761F52}|SocialNetwork.Web\\SocialNetwork.Web.csproj|d:\\coursovoi\\connectiverse\\socialnetwork\\socialnetwork.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EDFC1B11-D70C-41AA-891F-1C1AE5761F52}|SocialNetwork.Web\\SocialNetwork.Web.csproj|solutionrelative:socialnetwork.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDFC1B11-D70C-41AA-891F-1C1AE5761F52}|SocialNetwork.Web\\SocialNetwork.Web.csproj|d:\\coursovoi\\connectiverse\\socialnetwork\\socialnetwork.web\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDFC1B11-D70C-41AA-891F-1C1AE5761F52}|SocialNetwork.Web\\SocialNetwork.Web.csproj|solutionrelative:socialnetwork.web\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADE86C5E-F010-422E-842F-3F0D32CE6AAE}|SocialNetwork.API\\SocialNetwork.API.csproj|d:\\coursovoi\\connectiverse\\socialnetwork\\socialnetwork.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADE86C5E-F010-422E-842F-3F0D32CE6AAE}|SocialNetwork.API\\SocialNetwork.API.csproj|solutionrelative:socialnetwork.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDFC1B11-D70C-41AA-891F-1C1AE5761F52}|SocialNetwork.Web\\SocialNetwork.Web.csproj|d:\\coursovoi\\connectiverse\\socialnetwork\\socialnetwork.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDFC1B11-D70C-41AA-891F-1C1AE5761F52}|SocialNetwork.Web\\SocialNetwork.Web.csproj|solutionrelative:socialnetwork.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B217428-7D8C-4686-9780-1B9087FC2102}|SocialNetwork.Services\\SocialNetwork.Services.csproj|d:\\coursovoi\\connectiverse\\socialnetwork\\socialnetwork.services\\services\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B217428-7D8C-4686-9780-1B9087FC2102}|SocialNetwork.Services\\SocialNetwork.Services.csproj|solutionrelative:socialnetwork.services\\services\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDFC1B11-D70C-41AA-891F-1C1AE5761F52}|SocialNetwork.Web\\SocialNetwork.Web.csproj|d:\\coursovoi\\connectiverse\\socialnetwork\\socialnetwork.web\\views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EDFC1B11-D70C-41AA-891F-1C1AE5761F52}|SocialNetwork.Web\\SocialNetwork.Web.csproj|solutionrelative:socialnetwork.web\\views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDFC1B11-D70C-41AA-891F-1C1AE5761F52}|SocialNetwork.Web\\SocialNetwork.Web.csproj|d:\\coursovoi\\connectiverse\\socialnetwork\\socialnetwork.web\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDFC1B11-D70C-41AA-891F-1C1AE5761F52}|SocialNetwork.Web\\SocialNetwork.Web.csproj|solutionrelative:socialnetwork.web\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDFC1B11-D70C-41AA-891F-1C1AE5761F52}|SocialNetwork.Web\\SocialNetwork.Web.csproj|d:\\coursovoi\\connectiverse\\socialnetwork\\socialnetwork.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EDFC1B11-D70C-41AA-891F-1C1AE5761F52}|SocialNetwork.Web\\SocialNetwork.Web.csproj|solutionrelative:socialnetwork.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDFC1B11-D70C-41AA-891F-1C1AE5761F52}|SocialNetwork.Web\\SocialNetwork.Web.csproj|d:\\coursovoi\\connectiverse\\socialnetwork\\socialnetwork.web\\wwwroot\\lib\\jquery\\dist\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EDFC1B11-D70C-41AA-891F-1C1AE5761F52}|SocialNetwork.Web\\SocialNetwork.Web.csproj|solutionrelative:socialnetwork.web\\wwwroot\\lib\\jquery\\dist\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/WIN_6OFVV5E5MVL/SocialNetworkDB/True/SqlTable/dbo.Photos.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDFC1B11-D70C-41AA-891F-1C1AE5761F52}|SocialNetwork.Web\\SocialNetwork.Web.csproj|d:\\coursovoi\\connectiverse\\socialnetwork\\socialnetwork.web\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EDFC1B11-D70C-41AA-891F-1C1AE5761F52}|SocialNetwork.Web\\SocialNetwork.Web.csproj|solutionrelative:socialnetwork.web\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2960532E-8018-49C2-8E16-3EC8D70AE237}|SocialNetwork.Database\\SocialNetwork.Database.csproj|d:\\coursovoi\\connectiverse\\socialnetwork\\socialnetwork.database\\socialnetworkdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2960532E-8018-49C2-8E16-3EC8D70AE237}|SocialNetwork.Database\\SocialNetwork.Database.csproj|solutionrelative:socialnetwork.database\\socialnetworkdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EditPost.cshtml",
+              "DocumentMoniker": "D:\\coursovoi\\Connectiverse\\SocialNetwork\\SocialNetwork.Web\\Views\\Admin\\EditPost.cshtml",
+              "RelativeDocumentMoniker": "SocialNetwork.Web\\Views\\Admin\\EditPost.cshtml",
+              "ToolTip": "D:\\coursovoi\\Connectiverse\\SocialNetwork\\SocialNetwork.Web\\Views\\Admin\\EditPost.cshtml",
+              "RelativeToolTip": "SocialNetwork.Web\\Views\\Admin\\EditPost.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T19:44:39.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\coursovoi\\Connectiverse\\SocialNetwork\\SocialNetwork.Web\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "SocialNetwork.Web\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\coursovoi\\Connectiverse\\SocialNetwork\\SocialNetwork.Web\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "SocialNetwork.Web\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T19:39:59.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "particles.js",
+              "DocumentMoniker": "D:\\coursovoi\\Connectiverse\\SocialNetwork\\SocialNetwork.Web\\wwwroot\\js\\particles.js",
+              "RelativeDocumentMoniker": "SocialNetwork.Web\\wwwroot\\js\\particles.js",
+              "ToolTip": "D:\\coursovoi\\Connectiverse\\SocialNetwork\\SocialNetwork.Web\\wwwroot\\js\\particles.js",
+              "RelativeToolTip": "SocialNetwork.Web\\wwwroot\\js\\particles.js",
+              "ViewState": "AgIAAM8CAAAAAAAAAAAQwNUFAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-11T11:47:53.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\coursovoi\\Connectiverse\\SocialNetwork\\SocialNetwork.Web\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "SocialNetwork.Web\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\coursovoi\\Connectiverse\\SocialNetwork\\SocialNetwork.Web\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "SocialNetwork.Web\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAK0GAAAAAAAAAAAhwLcGAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T11:45:27.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "chat.js",
+              "DocumentMoniker": "D:\\coursovoi\\Connectiverse\\SocialNetwork\\SocialNetwork.Web\\wwwroot\\js\\chat.js",
+              "RelativeDocumentMoniker": "SocialNetwork.Web\\wwwroot\\js\\chat.js",
+              "ToolTip": "D:\\coursovoi\\Connectiverse\\SocialNetwork\\SocialNetwork.Web\\wwwroot\\js\\chat.js",
+              "RelativeToolTip": "SocialNetwork.Web\\wwwroot\\js\\chat.js",
+              "ViewState": "AgIAABMAAAAAAAAAAAAwwEAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-10T12:01:37.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BlobService.cs",
+              "DocumentMoniker": "D:\\coursovoi\\Connectiverse\\SocialNetwork\\SocialNetwork.Services\\Services\\BlobService.cs",
+              "RelativeDocumentMoniker": "SocialNetwork.Services\\Services\\BlobService.cs",
+              "ToolTip": "D:\\coursovoi\\Connectiverse\\SocialNetwork\\SocialNetwork.Services\\Services\\BlobService.cs",
+              "RelativeToolTip": "SocialNetwork.Services\\Services\\BlobService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAqwBwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:39:26.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChatController.cs",
+              "DocumentMoniker": "D:\\coursovoi\\Connectiverse\\SocialNetwork\\SocialNetwork.Web\\Controllers\\ChatController.cs",
+              "RelativeDocumentMoniker": "SocialNetwork.Web\\Controllers\\ChatController.cs",
+              "ToolTip": "D:\\coursovoi\\Connectiverse\\SocialNetwork\\SocialNetwork.Web\\Controllers\\ChatController.cs",
+              "RelativeToolTip": "SocialNetwork.Web\\Controllers\\ChatController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAqwEkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T16:35:18.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EditComment.cshtml",
+              "DocumentMoniker": "D:\\coursovoi\\Connectiverse\\SocialNetwork\\SocialNetwork.Web\\Views\\Admin\\EditComment.cshtml",
+              "RelativeDocumentMoniker": "SocialNetwork.Web\\Views\\Admin\\EditComment.cshtml",
+              "ToolTip": "D:\\coursovoi\\Connectiverse\\SocialNetwork\\SocialNetwork.Web\\Views\\Admin\\EditComment.cshtml",
+              "RelativeToolTip": "SocialNetwork.Web\\Views\\Admin\\EditComment.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T19:43:09.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserConfig.cs",
+              "DocumentMoniker": "D:\\coursovoi\\Connectiverse\\SocialNetwork\\SocialNetwork.Database\\DataConfigurations\\UserConfig.cs",
+              "RelativeDocumentMoniker": "SocialNetwork.Database\\DataConfigurations\\UserConfig.cs",
+              "ToolTip": "D:\\coursovoi\\Connectiverse\\SocialNetwork\\SocialNetwork.Database\\DataConfigurations\\UserConfig.cs",
+              "RelativeToolTip": "SocialNetwork.Database\\DataConfigurations\\UserConfig.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:35:26.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "signalrReqHandler.min.js",
+              "DocumentMoniker": "D:\\coursovoi\\Connectiverse\\SocialNetwork\\SocialNetwork.Web\\wwwroot\\js\\signalrReqHandler.min.js",
+              "RelativeDocumentMoniker": "SocialNetwork.Web\\wwwroot\\js\\signalrReqHandler.min.js",
+              "ToolTip": "D:\\coursovoi\\Connectiverse\\SocialNetwork\\SocialNetwork.Web\\wwwroot\\js\\signalrReqHandler.min.js",
+              "RelativeToolTip": "SocialNetwork.Web\\wwwroot\\js\\signalrReqHandler.min.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-10T10:37:46.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "particles.min.js",
+              "DocumentMoniker": "D:\\coursovoi\\Connectiverse\\SocialNetwork\\SocialNetwork.Web\\wwwroot\\js\\particles.min.js",
+              "RelativeDocumentMoniker": "SocialNetwork.Web\\wwwroot\\js\\particles.min.js",
+              "ToolTip": "D:\\coursovoi\\Connectiverse\\SocialNetwork\\SocialNetwork.Web\\wwwroot\\js\\particles.min.js",
+              "RelativeToolTip": "SocialNetwork.Web\\wwwroot\\js\\particles.min.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAACdAQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-11T11:48:37.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "signalrReqHandler.js",
+              "DocumentMoniker": "D:\\coursovoi\\Connectiverse\\SocialNetwork\\SocialNetwork.Web\\wwwroot\\js\\signalrReqHandler.js",
+              "RelativeDocumentMoniker": "SocialNetwork.Web\\wwwroot\\js\\signalrReqHandler.js",
+              "ToolTip": "D:\\coursovoi\\Connectiverse\\SocialNetwork\\SocialNetwork.Web\\wwwroot\\js\\signalrReqHandler.js",
+              "RelativeToolTip": "SocialNetwork.Web\\wwwroot\\js\\signalrReqHandler.js",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-10T10:36:38.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Messenger.cshtml",
+              "DocumentMoniker": "D:\\coursovoi\\Connectiverse\\SocialNetwork\\SocialNetwork.Web\\Views\\Chat\\Messenger.cshtml",
+              "RelativeDocumentMoniker": "SocialNetwork.Web\\Views\\Chat\\Messenger.cshtml",
+              "ToolTip": "D:\\coursovoi\\Connectiverse\\SocialNetwork\\SocialNetwork.Web\\Views\\Chat\\Messenger.cshtml",
+              "RelativeToolTip": "SocialNetwork.Web\\Views\\Chat\\Messenger.cshtml",
+              "ViewState": "AgIAABEBAAAAAAAAAAAAAB4BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T22:11:31.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\coursovoi\\Connectiverse\\SocialNetwork\\SocialNetwork.API\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "SocialNetwork.API\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\coursovoi\\Connectiverse\\SocialNetwork\\SocialNetwork.API\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "SocialNetwork.API\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAcwDgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T19:51:01.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\coursovoi\\Connectiverse\\SocialNetwork\\SocialNetwork.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SocialNetwork.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\coursovoi\\Connectiverse\\SocialNetwork\\SocialNetwork.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SocialNetwork.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T20:08:26.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "D:\\coursovoi\\Connectiverse\\SocialNetwork\\SocialNetwork.Web\\Views\\Account\\Profile.cshtml",
+              "RelativeDocumentMoniker": "SocialNetwork.Web\\Views\\Account\\Profile.cshtml",
+              "ToolTip": "D:\\coursovoi\\Connectiverse\\SocialNetwork\\SocialNetwork.Web\\Views\\Account\\Profile.cshtml",
+              "RelativeToolTip": "SocialNetwork.Web\\Views\\Account\\Profile.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAFsAAAB2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T20:06:03.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PostService.cs",
+              "DocumentMoniker": "D:\\coursovoi\\Connectiverse\\SocialNetwork\\SocialNetwork.Services\\Services\\PostService.cs",
+              "RelativeDocumentMoniker": "SocialNetwork.Services\\Services\\PostService.cs",
+              "ToolTip": "D:\\coursovoi\\Connectiverse\\SocialNetwork\\SocialNetwork.Services\\Services\\PostService.cs",
+              "RelativeToolTip": "SocialNetwork.Services\\Services\\PostService.cs",
+              "ViewState": "AgIAAKcAAAAAAAAAAIA1wLAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T20:38:54.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\coursovoi\\Connectiverse\\SocialNetwork\\SocialNetwork.Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "SocialNetwork.Web\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\coursovoi\\Connectiverse\\SocialNetwork\\SocialNetwork.Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "SocialNetwork.Web\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwBYAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T19:59:23.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PostController.cs",
+              "DocumentMoniker": "D:\\coursovoi\\Connectiverse\\SocialNetwork\\SocialNetwork.Web\\Controllers\\PostController.cs",
+              "RelativeDocumentMoniker": "SocialNetwork.Web\\Controllers\\PostController.cs",
+              "ToolTip": "D:\\coursovoi\\Connectiverse\\SocialNetwork\\SocialNetwork.Web\\Controllers\\PostController.cs",
+              "RelativeToolTip": "SocialNetwork.Web\\Controllers\\PostController.cs",
+              "ViewState": "AgIAAKYAAAAAAAAAAAAhwLQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T20:00:16.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "jquery.js",
+              "DocumentMoniker": "D:\\coursovoi\\Connectiverse\\SocialNetwork\\SocialNetwork.Web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "RelativeDocumentMoniker": "SocialNetwork.Web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "ToolTip": "D:\\coursovoi\\Connectiverse\\SocialNetwork\\SocialNetwork.Web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "RelativeToolTip": "SocialNetwork.Web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "ViewState": "AgIAABcHAAAAAAAAAAAcwOkDAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-08T22:12:25.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "D:\\coursovoi\\Connectiverse\\SocialNetwork\\SocialNetwork.Web\\Startup.cs",
+              "RelativeDocumentMoniker": "SocialNetwork.Web\\Startup.cs",
+              "ToolTip": "D:\\coursovoi\\Connectiverse\\SocialNetwork\\SocialNetwork.Web\\Startup.cs",
+              "RelativeToolTip": "SocialNetwork.Web\\Startup.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T22:37:36.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\coursovoi\\Connectiverse\\SocialNetwork\\SocialNetwork.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "SocialNetwork.Web\\appsettings.json",
+              "ToolTip": "D:\\coursovoi\\Connectiverse\\SocialNetwork\\SocialNetwork.Web\\appsettings.json",
+              "RelativeToolTip": "SocialNetwork.Web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-07T20:47:30.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "dbo.Photos.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/WIN_6OFVV5E5MVL/SocialNetworkDB/True/SqlTable/dbo.Photos.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/WIN_6OFVV5E5MVL/SocialNetworkDB/True/SqlTable/dbo.Photos.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-12-07T20:44:43.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_Navbar.cshtml",
+              "DocumentMoniker": "D:\\coursovoi\\Connectiverse\\SocialNetwork\\SocialNetwork.Web\\Views\\Shared\\_Navbar.cshtml",
+              "RelativeDocumentMoniker": "SocialNetwork.Web\\Views\\Shared\\_Navbar.cshtml",
+              "ToolTip": "D:\\coursovoi\\Connectiverse\\SocialNetwork\\SocialNetwork.Web\\Views\\Shared\\_Navbar.cshtml",
+              "RelativeToolTip": "SocialNetwork.Web\\Views\\Shared\\_Navbar.cshtml",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAHAAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T20:08:55.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SocialNetworkDBContext.cs",
+              "DocumentMoniker": "D:\\coursovoi\\Connectiverse\\SocialNetwork\\SocialNetwork.Database\\SocialNetworkDBContext.cs",
+              "RelativeDocumentMoniker": "SocialNetwork.Database\\SocialNetworkDBContext.cs",
+              "ToolTip": "D:\\coursovoi\\Connectiverse\\SocialNetwork\\SocialNetwork.Database\\SocialNetworkDBContext.cs",
+              "RelativeToolTip": "SocialNetwork.Database\\SocialNetworkDBContext.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAA8wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T20:32:20.795Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

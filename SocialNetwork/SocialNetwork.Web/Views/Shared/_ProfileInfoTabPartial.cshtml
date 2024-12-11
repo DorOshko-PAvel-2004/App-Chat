@@ -1,0 +1,114 @@
+﻿@model UserViewModel
+
+<div class="tab-pane" id="about">
+    <div class="row">
+
+        <div class="col-sm-12">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="card-header-text">Basic Information</h5>
+                    <button id="edit-btn" type="button" class="btn btn-primary waves-effect waves-light f-right">
+                        <i class="icofont icofont-edit"></i>
+                    </button>
+                </div>
+                <div class="card-block">
+
+                    <div id="view-info" class="row">
+                        <div class="col-lg-6 col-md-12">
+                            <form>
+                                <table class="table table-responsive m-b-0">
+                                    <tbody>
+                                        <tr>
+                                            <th class="social-label b-none p-t-0">
+                                                Full Name
+                                            </th>
+                                            <td class="social-user-name b-none p-t-0 text-muted">@Model.DisplayName</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="social-label b-none">Birth Date</th>
+                                            @if (Model.DateOfBirth != null)
+                                            {
+                                                <td class="social-user-name b-none text-muted">@Model.DateOfBirth.Value.Year/@Model.DateOfBirth.Value.Month/@Model.DateOfBirth.Value.Day</td>
+                                            }
+                                            else
+                                            {
+                                                <td class="social-user-name b-none text-muted">None provided</td>
+                                            }
+                                        </tr>
+                                        <tr>
+                                            <th class="social-label b-none p-b-0">Education</th>
+                                            @if (!string.IsNullOrWhiteSpace(Model.Education))
+                                            {
+                                                <td class="social-user-name b-none p-b-0 text-muted">@Model.Education</td>
+                                            }
+                                            else
+                                            {
+                                                <td class="social-user-name b-none text-muted">None provided</td>
+                                            }
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </form>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-12">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="card-header-text">Contact Information</h5>
+                    <button id="edit-Contact" type="button" class="btn btn-primary waves-effect waves-light f-right">
+                        <i class="icofont icofont-edit"></i>
+                    </button>
+                </div>
+                <div class="card-block">
+                    <div id="contact-info" class="row">
+                        <div class="col-lg-10 col-md-12">
+                            <table class="table table-responsive m-b-0">
+                                <tbody>
+                                    <tr>
+                                        <th class="social-label b-none p-t-0">Email</th>
+                                        <td class="social-user-name b-none p-t-0 text-muted">@Model.Email</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="social-label b-none">Phone</th>
+                                        @if (!string.IsNullOrWhiteSpace(Model.PhoneNumber))
+                                        {
+                                            <td class="social-user-name b-none text-muted">@Model.PhoneNumber</td>
+                                        }
+                                        else
+                                        {
+                                            <td class="social-user-name b-none text-muted">None provided</td>
+                                        }
+                                    </tr>
+                                    <tr>
+                                        <th class="social-label b-none">Socials</th>
+                                        @if (Model.SocialMedias.Any())
+                                        {
+                                            foreach (var item in Model.SocialMedias)
+                                            {
+                                                <td class="social-user-name b-none text-muted">
+                                                    <a href="@item.UserLink" target="_blank">@item.UserLink</a>
+                                                </td>
+                                            }
+                                        }
+                                        else
+                                        {
+                                            <td class="social-user-name b-none text-muted">None provided</td>
+                                        }
+                                    </tr>
+                                    
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+       
+    </div>
+</div>

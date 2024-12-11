@@ -1,0 +1,118 @@
+﻿@model UserViewModel
+@inject UserManager<User> UserManager
+@{
+    var user = await UserManager.GetUserAsync(User);
+
+    var isFriend = Model.Friends.Any(f => f.UserFriendId == user.Id && !f.IsDeleted);
+
+    var isFriendRequestReceived = Model.FriendRequests.Any(r => r.SenderId == Model.Id && r.ReceiverId == user.Id && !r.IsDeleted);
+
+    var isFriendRequestSent = Model.IsFriendshipRequested;
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="content social-timeline">
+                <div class="">
+
+                    <!-- Cover photo-->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="social-wallpaper">
+                                <img class="social-wallpaper-picture" src="@Model.CoverPictureUrl" @*src="https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2017/08/nature-design.jpg"*@ />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-4 col-md-4 col-xs-12">
+                            <!-- Left section -->
+                            <div class="social-timeline-left">
+                                <!-- Profile Card -->
+                                <div class="card">
+                                    <!-- Profile Photo -->
+                                    <div class="social-profile">
+                                        <img class="img-fluid width-100" src="@Model.ProfilePictureUrl" alt="">
+                                        <div class="profile-hvr m-t-15">
+                                            <i class="icofont icofont-ui-edit p-r-10"></i>
+                                            <i class="icofont icofont-ui-delete"></i>
+                                        </div>
+                                    </div>
+                                    <!-- Profile info -->
+                                    <div class="card-block social-follower">
+                                        <h4>@Model.DisplayName</h4>
+                                        <h5>@Model.Education</h5>
+
+                                        <div class="">
+                                            @if (!isFriend)
+                                            {
+                                                if (isFriendRequestSent)
+                                                {
+                                                    <a type="button" class="btn btn-outline-primary waves-effect btn-block" disabled>
+                                                        <i class="icofont icofont-ui-user m-r-10"></i> Request sent
+                                                    </a>
+                                                }
+                                                else if (isFriendRequestReceived)
+                                                {
+                                                    <a type="button" class="btn btn-outline-primary waves-effect btn-block"
+                                                       asp-controller="Account"
+                                                       asp-action="ChangeFriendshipStatus"
+                                                       asp-route-userId="@user.Id" asp-route-friendId="@Model.Id" asp-route-type="accept">
+                                                        <i class="icofont icofont-ui-user m-r-10"></i> Accept request
+                                                    </a>
+                                                }
+                                                else
+                                                {
+                                                    <a type="button" class="btn btn-outline-primary waves-effect btn-block"
+                                                       asp-controller="Account"
+                                                       asp-action="ChangeFriendshipStatus"
+                                                       asp-route-userId="@user.Id" asp-route-friendId="@Model.Id" asp-route-type="add">
+                                                        <i class="icofont icofont-ui-user m-r-10"></i> Add friend
+                                                    </a>
+                                                }
+                                            }
+                                            else
+                                            {
+                                                <a type="button" class="btn btn-outline-primary waves-effect btn-block"
+                                                   asp-controller="Account"
+                                                   asp-action="ChangeFriendshipStatus"
+                                                   asp-route-userId="@user.Id" asp-route-friendId="@Model.Id" asp-route-type="remove">
+                                                    <i class="icofont icofont-ui-user m-r-10"></i>Remove Friend
+                                                </a>
+                                            }
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Friends -->
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h5 class="card-header-text d-inline-block">Friends</h5>
+
+                                        <span class="label label-primary f-right"> @Model.Friends.Count() </span>
+                                    </div>
+                                    <div class="card-block friend-box">
+                                        @foreach (var friend in Model.Friends.Take(6))
+                                        {
+                                            <a asp-controller="Account" asp-action="FriendProfile" asp-route-userId="@friend.UserFriendId">
+                                                <img class="media-object img-radius" src="@friend.UserFriendProfilePictureUrl" data-toggle="tooltip" data-placement="top" data-original-title="user image">
+                                            </a>
+                                        }
+                                        
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- Profile Tabs-->
+                        <partial name="_ProfileTabsPartial" model="Model" />
+                        @*CREATE POST SECTION!   https://www.bootdey.com/bootstrap-snippets?utf8=%E2%9C%93&q=search*@
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

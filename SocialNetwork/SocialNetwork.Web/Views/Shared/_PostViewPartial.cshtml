@@ -1,0 +1,131 @@
+﻿@model PostCommentViewModel
+@inject UserManager<User> UserManager
+@{
+    var user = await UserManager.GetUserAsync(User);
+    Model.isLiked = Model.Post.Likes.Any(l => l.UserId == user.Id);
+
+    int commentCounter = 0;
+}
+
+<div class="social-timelines p-relative">
+    <div class="row timeline-right p-t-35">
+        <div class="col-2 col-sm-2 col-xl-1">
+            <div class="social-timelines-left">
+                <a asp-controller="Account" asp-action="FriendProfile" asp-route-userId="@Model.Post.UserId">
+                    <img class="img-radius timeline-icon" src="@Model.Post.UserProfilePictureUrl" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="col-10 col-sm-10 col-xl-11 p-l-5 p-b-35">
+            <div class="card">
+                @if (!string.IsNullOrEmpty(Model.Post.PhotoUrl))
+                {
+                    <div class="picture-frame-black">
+                        <img src="@Model.Post.PhotoUrl" class="img-fluid width-100 picture-in-frame">
+                    </div>
+                }
+                <div class="card-block">
+                    <div class="timeline-details">
+                        <p class="text-muted">@Model.Post.Content</p>
+                    </div>
+                </div>
+                <div class="card-block b-b-theme b-t-theme social-msg">
+
+                    <i class="fa fa-thumbs-up" onclick="likepost(@Model.Post.Id, this)" isliked="@(Model.isLiked ? "true" : "false")"
+                       style="@(Model.isLiked ? "blue" : "powderblue")font-size:24px;color:@(Model.isLiked ? "blue" : "powderblue"); cursor:pointer;"></i>
+
+                    <span id="likesCount_@Model.Post.Id" class="b-r-muted" likesCount="@Model.Post.Likes.Count">Likes (@Model.Post.Likes.Count)</span>
+                    <a onclick="showComments(@Model.Post.Id)" style="cursor: pointer;"> <i class="icofont icofont-comment text-muted"></i> <span class="b-r-muted">Comments (@Model.Post.Comments.Count)</span></a>
+                </div>
+                <div class="card-block user-box" id="comments_@Model.Post.Id" data-display="on">
+                    
+                    @foreach (var comment in Model.Post.Comments)
+                    {
+                        <div class="media m-b-20" @(commentCounter < 3 ? "" : "hidden")>
+                            <a class="media-left" href="#">
+                                <img class="media-object img-radius m-r-20" src="@comment.UserProfilePictureUrl" width="10" height="10">
+                            </a>
+                            <div class="media-body b-b-muted social-client-description">
+                                <div class="chat-header">@comment.UserDisplayName<span class="text-muted">@comment.CreatedOn</span></div>
+                                <p class="text-muted">@comment.Content</p>
+                            </div>
+                        </div>
+
+                        commentCounter++;
+                    }
+
+                    <!-- Comment on a post -->
+                    <div class="media">
+                        <a class="media-left" href="#">
+                            <img class="media-object img-radius m-r-20" src="@user.ProfilePictureUrl">
+                        </a>
+                        <div class="media-body">
+                            <form class="" method="post" asp-controller="Post" asp-action="Comment">
+                                <div class="">
+                                    <input rows="5" cols="5" class="form-control" asp-for="NewComment.Content" placeholder="Write Something here..."></input>
+                                    <input style="display: none" asp-for="NewComment.PostId" value="@Model.Post.Id" />
+                                    <div class="form-group">
+                                        <input type="submit" value="Create" class="btn btn-primary btn-block" />
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@*<script>
+    function submitComment(button) {
+
+        console.log(button);
+
+        let commentContent = $(button).siblings('.content').val();
+        console.log(commentContent);
+
+        let postId = $(button).siblings('.postId').val();
+
+        let vm = {
+            viewModel: {
+                Post: {
+                    Id: postId
+                },
+                NewComment: {
+                    Content: commentContent
+                },
+                Test: "Ali"
+            }
+        };
+
+        debugger;
+        $.ajax({
+            type: "POST",
+            url: "/Post/Comment",
+            data: JSON.stringify(vm),
+            dataType: "json",
+            contentType: "application/json",
+        });
+    }
+</script>
+
+@section Scripts{
+    <script>
+        $('#addComment').click(function () {
+            var json = @Model.NewComment.Content;
+            console.log(json);
+            $.ajax({
+                        type: "POST",
+                        url: "https://localhost:5001/Post/Comment",
+                        data: JSON.stringify(json),
+                        contentType: "application/json; charset=utf-8",
+                        processData: 'json',
+                success: function (data) {
+                    console.log(data);
+                    $().html(data)
+                        }
+                    })
+                })
+    </script>
+}*@

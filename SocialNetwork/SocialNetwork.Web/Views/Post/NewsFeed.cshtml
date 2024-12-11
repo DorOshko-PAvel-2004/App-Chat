@@ -1,0 +1,31 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model List<PostCommentViewModel>
+
+@inject UserManager<User> UserManager
+@{ ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var user = await UserManager.GetUserAsync(User); }
+
+<style>
+    .social-timelines:before {
+        background: rgba(0, 0, 0, 0);
+    }
+</style>
+
+<br />
+<br />
+<br />
+<br />
+<br />
+
+<div class="container">
+
+    <h1 style="text-align: center; margin-bottom: 30px">Newsfeed</h1>
+    <h3 style="text-align: center; margin-bottom: 30px">Have a great @DateTime.Today.DayOfWeek, @user.DisplayName.Split(' ')[0]!</h3>
+
+    @foreach (var item in Model)
+    {
+        <partial name="_PostViewPartial" model="item" />
+    }
+
+</div>

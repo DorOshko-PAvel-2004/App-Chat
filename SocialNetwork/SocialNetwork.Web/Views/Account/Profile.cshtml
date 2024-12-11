@@ -1,0 +1,136 @@
+﻿@model UserViewModel
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="content social-timeline">
+                <div class="">
+
+                    <!-- Cover photo-->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="social-wallpaper">
+                                <img class="social-wallpaper-picture" src="@Model.CoverPictureUrl" />
+                            </div>
+                            <div class="timeline-btn">
+                                <div class="modal fade" id="changeCoverPhoto" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3 class="modal-title" id="exampleModalLongTitle">Choose photo</h3>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="row">
+                                                    <div class="col-md-4">
+                                                        <form method="post" enctype="multipart/form-data" asp-controller="Post" asp-action="ChangeCoverPhoto">
+                                                            <div class="form-group">
+                                                                <label> Upload photo </label>
+                                                                <label asp-for="@Model.Posts.Last().file" class="control-label"></label>
+                                                                <input asp-for="@Model.Posts.Last().file" class="form-control" />
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <input type="submit" value="Upload" class="btn btn-primary" />
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#changeCoverPhoto">
+                                    Change Cover
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-4 col-md-4 col-xs-12">
+                            <!-- Left section -->
+                            <div class="social-timeline-left">
+                                <!-- Profile Card -->
+                                <div class="card">
+                                    <!-- Profile Photo -->
+                                    <div class="social-profile">
+                                        <img class="img-fluid width-100" src="@Model.ProfilePictureUrl" alt="">
+                                        <div class="profile-hvr m-t-15">
+                                            <i class="icofont icofont-ui-edit p-r-10"></i>
+                                            <i class="icofont icofont-ui-delete"></i>
+                                        </div>
+                                    </div>
+                                    <!-- Profile info -->
+                                    <div class="card-block social-follower">
+                                        <h4>@Model.DisplayName</h4>
+                                        @if (!string.IsNullOrWhiteSpace(Model.Education))
+                                        {
+                                            <h5>@Model.Education</h5>
+                                        }
+                                        <div class="">
+                                            <div class="modal fade" id="changeProfilePhoto" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h3 class="modal-title" id="exampleModalLongTitle">Choose photo</h3>
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <div class="row">
+                                                                <div class="col-md-4">
+                                                                    <form method="post" enctype="multipart/form-data" asp-controller="Post" asp-action="ChangeProfilePhoto">
+                                                                        <div class="form-group">
+                                                                            <label> Upload photo </label>
+                                                                            <label asp-for="@Model.Posts.Last().file" class="control-label"></label>
+                                                                            <input asp-for="@Model.Posts.Last().file" class="form-control" />
+                                                                        </div>
+                                                                        <div class="form-group">
+                                                                            <input type="submit" value="Upload" class="btn btn-primary" />
+                                                                        </div>
+                                                                    </form>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#changeProfilePhoto">
+                                                Change Picture
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Friends -->
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h5 class="card-header-text d-inline-block">Friends</h5>
+
+                                        <span class="label label-primary f-right"> @Model.Friends.Count() </span>
+                                    </div>
+                                    <div class="card-block friend-box">
+                                        @foreach (var friend in Model.Friends.Take(6))
+                                        {
+                                            <a asp-controller="Account" asp-action="FriendProfile" asp-route-userId="@friend.UserFriendId">
+                                                <img class="media-object img-radius" src="@friend.UserFriendProfilePictureUrl" data-toggle="tooltip" data-placement="top" data-original-title="user image">
+                                            </a>
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Profile Tabs-->
+                        <partial name="_ProfileTabsPartial" />
+                        @*CREATE POST SECTION!   https://www.bootdey.com/bootstrap-snippets?utf8=%E2%9C%93&q=search*@
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
